@@ -1,0 +1,51 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# BACKEND
+
+# Byte-compiled / optimized / DLL files
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+
+# C extensions
+/backend/*.so
+
+# Distribution / packaging
+/backend/.Python
+/backend/env/
+/backend/build/
+/backend/develop-eggs/
+/backend/dist/
+/backend/downloads/
+/backend/eggs/
+/backend/.eggs/
+/backend/lib/
+/backend/lib64/
+/backend/parts/
+/backend/sdist/
+/backend/var/
+/backend/*.egg-info/
+/backend/.installed.cfg
+/backend/*.egg
+
+# FRONTEND
+
+# dependencies
+/frontend/node_modules
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+/frontend.DS_Store
+/frontend.env.local
+/frontend.env.development.local
+/frontend.env.test.local
+/frontend.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*

@@ -1,0 +1,6 @@
+django
+channels
+django-cors-middleware
+requests
+psycopg2
+exifread
